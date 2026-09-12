@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Total Connection — A practical guide to strengthen the emotional and physical connection in your relationship. By Sofia Vilar, couples therapist.">
+  <title>Total Connection | Sofia Vilar — Couples Therapist</title>
+  <link rel="stylesheet" href="/w/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💛</text></svg>">
+</head>
+<body>
+
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- QUIZ -->
+  <div class="quiz-overlay" id="quizOverlay">
+    <div class="quiz-container">
+      <div class="quiz__progress" id="quizProgress"></div>
+      <div id="quizContent"></div>
+    </div>
+  </div>
+
+  <!-- MAIN -->
+  <main id="mainContent" style="display:none;">
+
+    <!-- HERO -->
+    <section class="hero section" id="hero">
+      <div class="hero__bg-gradient"></div>
+      <div class="orb orb--rose" style="width:400px;height:400px;top:-10%;right:-10%;animation:float 8s ease-in-out infinite;"></div>
+      <div class="orb orb--purple" style="width:300px;height:300px;bottom:10%;left:-5%;animation:float 10s ease-in-out infinite 2s;"></div>
+
+      <div class="hero__content">
+        <div class="hero__badge">
+          💛 Practical Guide for Couples
+        </div>
+
+        <h1 class="hero__title">
+          Strengthen the <em>emotional connection</em> with your partner and transform your <span class="text-gradient">relationship</span>
+        </h1>
+
+        <p class="hero__description">
+          A step-by-step guide created by couples therapist Sofia Vilar, with communication, presence, and conscious touch techniques to build a closer, warmer, and deeper relationship.
+        </p>
+
+        <div class="hero__cta-wrapper">
+          <a href="#pricing" class="btn-cta btn-cta--large btn-cta--pulse" onclick="scrollToPrice(); return false;">
+            I Want to Strengthen My Relationship
+            <span class="btn-cta__arrow">→</span>
+          </a>
+          <div class="cta__subtext">
+            <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Instant access · 30-day guarantee
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROBLEM -->
+    <section class="problem section" id="problem">
+      <div class="container">
+        <div class="text-center reveal">
+          <p class="section__eyebrow">Does this sound familiar?</p>
+          <h2 class="section__title">Many couples feel like <span class="text-gradient">something got lost</span></h2>
+          <p class="section__subtitle">
+            Over time, routine and day-to-day responsibilities cause many relationships to lose the deep connection they once had. It's nobody's fault — nobody ever taught us how to keep it alive.
+          </p>
+        </div>
+
+        <div class="problem__grid">
+          <div class="problem__item reveal reveal-delay-1">
+            <div class="problem__icon">💬</div>
+            <p class="problem__text">
+              <strong>They feel like communication is missing.</strong> They're together but feel distant. Conversations became surface-level and the emotional closeness has been fading.
+            </p>
+          </div>
+          <div class="problem__item reveal reveal-delay-2">
+            <div class="problem__icon">📚</div>
+            <p class="problem__text">
+              <strong>No one taught them how to connect.</strong> Traditional education doesn't teach us tools to keep a relationship's connection alive. Without tools, it's hard to know where to start.
+            </p>
+          </div>
+          <div class="problem__item reveal reveal-delay-3">
+            <div class="problem__icon">🔄</div>
+            <p class="problem__text">
+              <strong>Routine took over everything.</strong> The days repeat, life goes by, and the relationship gets pushed to the background. What used to feel exciting now feels automatic.
+            </p>
+          </div>
+          <div class="problem__item reveal">
+            <div class="problem__icon">✨</div>
+            <p class="problem__text">
+              <strong>You want that spark back.</strong> You know your relationship has potential, but you're missing concrete tools to really reconnect.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOLUTION -->
+    <section class="section" id="solution">
+      <div class="container">
+        <div class="text-center reveal">
+          <p class="section__eyebrow">The solution</p>
+          <h2 class="section__title">
+            <span class="text-gradient">Connection as a couple</span> can be learned and strengthened
+          </h2>
+          <p class="section__subtitle">
+            Studies in relationship psychology show that couples who practice conscious communication, full presence, and intentional body language report greater satisfaction, emotional closeness, and shared well-being.
+          </p>
+        </div>
+
+        <div class="solution__highlight reveal">
+          <p class="solution__quote">
+            "When a couple learns to truly communicate — with <em>presence, intention, and care</em> — the relationship transforms. It's not about grand gestures, but about <em>small conscious acts</em> every day."
+          </p>
+          <span class="solution__author">— Sofia Vilar, Couples Therapist</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- BIO -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="text-center reveal">
+          <p class="section__eyebrow">Your guide</p>
+          <h2 class="section__title">Meet <span class="text-gradient">Sofia Vilar</span></h2>
+        </div>
+
+        <div class="about__card reveal">
+          <div class="about__image-wrapper">
+            <img src="/w/assets/sofia-vilar.webp" alt="Sofia Vilar — Couples Therapist" class="about__image">
+          </div>
+          <div>
+            <h3 class="about__name">Sofia Vilar</h3>
+            <p class="about__role">Couples Therapist · Emotional Connection Specialist</p>
+            <p class="about__bio">
+              With more than <strong>10 years of experience</strong> guiding couples and women on their path to healthier relationships, Sofia has helped more than 1,500 people reconnect emotionally with their partners.
+            </p>
+            <p class="about__bio">
+              Throughout her career, she identified that most relationship problems share a common root: <strong>the lack of communication and connection tools</strong>. That's why she created <em>Total Connection</em> — a practical, accessible guide so any woman can strengthen her relationship.
+            </p>
+            <div class="about__stats">
+              <div class="about__stat">
+                <div class="about__stat-number">+1,500</div>
+                <div class="about__stat-label">Students</div>
+              </div>
+              <div class="about__stat">
+                <div class="about__stat-number">10+</div>
+                <div class="about__stat-label">Years</div>
+              </div>
+              <div class="about__stat">
+                <div class="about__stat-number">4.9★</div>
+                <div class="about__stat-label">Rating</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <div class="text-center reveal">
+          <p class="section__eyebrow">Real experiences</p>
+          <h2 class="section__title">What our <span class="text-gradient">students</span> say</h2>
+          <p class="section__subtitle">
+            Real women share how the guide's tools transformed their relationship.*
+          </p>
+        </div>
+
+        <div class="testimonials__grid">
+          <div class="testimonial-card reveal">
+            <div class="testimonial__header">
+              <img src="/w/assets/testimonial-1.webp" alt="Sarah" class="testimonial__avatar">
+              <div>
+                <div class="testimonial__name">Sarah M.</div>
+                <div class="testimonial__stars">★★★★★</div>
+              </div>
+            </div>
+            <p class="testimonial__text">
+              "I started applying the communication and presence techniques Sofia teaches. My husband noticed the difference right away. We started talking more, being more present for each other. I feel like we got back a closeness we had lost."
+            </p>
+          </div>
+
+          <div class="testimonial-card reveal reveal-delay-1">
+            <div class="testimonial__header">
+              <img src="/w/assets/testimonial-2.webp" alt="Jessica" class="testimonial__avatar">
+              <div>
+                <div class="testimonial__name">Jessica T.</div>
+                <div class="testimonial__stars">★★★★★</div>
+              </div>
+            </div>
+            <p class="testimonial__text">
+              "At first I had my doubts, but the lessons are clear and easy to apply. I started with the active-listening exercises and the daily rituals. Now our relationship feels lighter, warmer. I wish I'd found this sooner."
+            </p>
+          </div>
+
+          <div class="testimonial-card reveal reveal-delay-2">
+            <div class="testimonial__header">
+              <img src="/w/assets/testimonial-3.webp" alt="Amanda" class="testimonial__avatar">
+              <div>
+                <div class="testimonial__name">Amanda K.</div>
+                <div class="testimonial__stars">★★★★★</div>
+              </div>
+            </div>
+            <p class="testimonial__text">
+              "What I liked most is that you don't need any prior experience. The tools are simple but powerful. I learned to communicate better, to be more present, and my partner's response was incredible. I'd recommend it to any woman."
+            </p>
+          </div>
+        </div>
+
+        <p class="text-center reveal" style="margin-top:24px; font-size:0.75rem; color:var(--text-muted);">
+          *Results may vary. Testimonials reflect individual experiences.
+        </p>
+      </div>
+    </section>
+
+    <!-- MODULES -->
+    <section class="modules section" id="modules">
+      <div class="container">
+        <div class="text-center reveal">
+          <p class="section__eyebrow">Guide content</p>
+          <h2 class="section__title">10 practical chapters <span class="text-gradient">step by step</span></h2>
+          <p class="section__subtitle">
+            A complete e-book with communication, presence, and connection tools. Learn at your own pace, from your phone or computer.
+          </p>
+        </div>
+
+        <div class="modules__list reveal">
+          <div class="module-item">
+            <div class="module__number">01</div>
+            <div class="module__info">
+              <h4>The science of connection in a relationship</h4>
+              <p>How oxytocin and dopamine work in the relationship, and why small gestures matter so much.</p>
+            </div>
+          </div>
+          <div class="module-item">
+            <div class="module__number">02</div>
+            <div class="module__info">
+              <h4>Emotional communication</h4>
+              <p>Active-listening tools, love languages, and how to express what you feel without conflict.</p>
+            </div>
+          </div>
+          <div class="module-item">
+            <div class="module__number">03</div>
+            <div class="module__info">
+              <h4>Body language in the relationship</h4>
+              <p>How your posture, gaze, and gestures communicate more than words.</p>
+            </div>
+          </div>
+          <div class="module-item">
+            <div class="module__number">04</div>
+            <div class="module__info">
+              <h4>Full presence as a couple</h4>
+              <p>Mindfulness techniques applied to the relationship to be truly present in every moment together.</p>
+            </div>
+          </div>
+          <div class="module-item">
+            <div class="module__number">05</div>
+            <div class="module__info">
+              <h4>Conscious touch</h4>
+              <p>The power of intentional physical contact: hugs, caresses, and relaxing massage as connection tools.</p>
+            </div>
+          </div>
+          <div class="module-item">
+            <div class="module__number">06</div>
+            <div class="module__info">
+              <h4>Reading your partner's signals</h4>
+              <p>How to interpret nonverbal communication and respond with empathy and care.</p>
+            </div>
+          </div>
+          <div class="module-item">
+            <div class="module__number">07</div>
+            <div class="module__info">
+              <h4>Daily connection rituals</h4>
+              <p>Simple habits that keep the emotional closeness alive every day.</p>
+            </div>
+          </div>
+          <div class="module-item">
+            <div class="module__number">08</div>
+            <div class="module__info">
+              <h4>Building emotional intimacy</h4>
+              <p>How to create a safe space of trust, vulnerability, and mutual support.</p>
+            </div>
+          </div>
+          <div class="module-item">
+            <div class="module__number">09</div>
+            <div class="module__info">
+              <h4>Overcoming routine as a couple</h4>
+              <p>Creative ideas and practical tools to get out of autopilot.</p>
+            </div>
+          </div>
+          <div class="module-item">
+            <div class="module__number">10</div>
+            <div class="module__info">
+              <h4>Your personal connection map</h4>
+              <p>A personalized action plan to apply everything you've learned in your relationship.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEO LESSONS -->
+    <section class="section" id="videoaulas">
+      <div class="container">
+        <div class="text-center reveal">
+          <p class="section__eyebrow">Also included</p>
+          <h2 class="section__title">5 exclusive video lessons <span class="text-gradient">with Sofia Vilar</span></h2>
+          <p class="section__subtitle">
+            Along with the e-books, you'll get video lessons where Sofia shares techniques and insights that are direct, personal, and easy to apply from day one.
+          </p>
+        </div>
+
+        <div class="modules__list reveal">
+
+          <div class="module-item">
+            <div class="module__number" style="background:rgba(232,67,147,0.12);color:var(--accent-light);">▶</div>
+            <div class="module__info">
+              <h4>Lesson 1 — What he'll never say out loud</h4>
+              <p>Men live with an invisible pressure to be strong and secure. Learn the one simple gesture — no words needed — that gives him the emotional security he needs most and will never ask for.</p>
+            </div>
+          </div>
+
+          <div class="module-item">
+            <div class="module__number" style="background:rgba(232,67,147,0.12);color:var(--accent-light);">▶</div>
+            <div class="module__info">
+              <h4>Lesson 2 — The love language he actually understands</h4>
+              <p>Men don't process love through words: they process it through physical touch and presence. Discover why an unexpected touch communicates more than saying "I love you" ten times a day, and how to apply it this week.</p>
+            </div>
+          </div>
+
+          <div class="module-item">
+            <div class="module__number" style="background:rgba(232,67,147,0.12);color:var(--accent-light);">▶</div>
+            <div class="module__info">
+              <h4>Lesson 3 — The question that changes your relationship's dynamic</h4>
+              <p>One single question — "What do you need from me today?" — has the power to completely disarm your partner. Learn when to ask it, how to ask it, and why the silence after it is where the magic happens.</p>
+            </div>
+          </div>
+
+          <div class="module-item">
+            <div class="module__number" style="background:rgba(232,67,147,0.12);color:var(--accent-light);">▶</div>
+            <div class="module__info">
+              <h4>Lesson 4 — A self-assured woman is irresistible</h4>
+              <p>Your partner watches you more than you think — especially when you're not seeking his attention. Discover why a woman with her own life, her own interests, and a vibrant world is the most magnetic thing there is, and how to build that confidence day by day.</p>
+            </div>
+          </div>
+
+          <div class="module-item">
+            <div class="module__number" style="background:rgba(232,67,147,0.12);color:var(--accent-light);">▶</div>
+            <div class="module__info">
+              <h4>Lesson 5 — The reconnection ritual that keeps the relationship alive</h4>
+              <p>Couples who last aren't the ones who never fight — they're the ones who have a reconnection ritual. Learn to create that daily moment, even just 5 minutes, that breaks the cycle of gradual disconnection and reminds you both that, above all, you're two people who chose each other.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- BONUSES -->
+    <section class="section" id="bonuses">
+      <div class="container">
+        <div class="text-center reveal">
+          <p class="section__eyebrow">Included in your access</p>
+          <h2 class="section__title">Extra <span class="text-gradient">bonuses</span></h2>
+          <p class="section__subtitle">
+            Along with the main guide, you'll get these companion e-books at no extra cost.
+          </p>
+        </div>
+
+        <div class="bonuses__grid">
+          <div class="bonus-card reveal">
+            <span class="bonus__tag">🎁 Bonus 1</span>
+            <h3 class="bonus__title">✨ Magnetic Presence</h3>
+            <p class="bonus__desc">
+              Learn to develop a <strong>personal presence</strong> that generates admiration and natural attraction. Posture, energy, and confidence techniques applied to your relationship.
+            </p>
+          </div>
+
+          <div class="bonus-card reveal reveal-delay-1">
+            <span class="bonus__tag">🎁 Bonus 2</span>
+            <h3 class="bonus__title">💫 Deep Connection</h3>
+            <p class="bonus__desc">
+              <strong>Vulnerability and trust</strong> exercises for couples. Learn to create safe spaces where you can both open up emotionally and strengthen your bond.
+            </p>
+          </div>
+
+          <div class="bonus-card reveal reveal-delay-2">
+            <span class="bonus__tag">🎁 Bonus 3</span>
+            <h3 class="bonus__title">🧘 Sensory Awakening</h3>
+            <p class="bonus__desc">
+              <strong>Mindfulness and conscious breathing</strong> techniques to connect with your body, reduce stress, and be more present in your moments together.
+            </p>
+          </div>
+
+          <div class="bonus-card bonus-card--super reveal reveal-delay-3">
+            <span class="bonus__tag">⚡ Special Bonus</span>
+            <h3 class="bonus__title">💬 Irresistible Communication</h3>
+            <p class="bonus__desc">
+              <strong>Assertive and empathetic communication</strong> techniques that build admiration, closeness, and complicity. Learn to express what you need and to listen with your heart.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="pricing section" id="pricing">
+      <div class="container">
+        <div class="text-center reveal">
+          <p class="section__eyebrow">Affordable investment</p>
+          <h2 class="section__title">All of this for a <span class="text-gradient">single payment</span></h2>
+        </div>
+
+        <div class="pricing__card reveal">
+          <div class="pricing__includes">
+            <div class="pricing__include-item">Main e-book: Total Connection (10 chapters)</div>
+            <div class="pricing__include-item">Communication, presence, and conscious touch tools</div>
+            <div class="pricing__include-item">Bonus: Magnetic Presence</div>
+            <div class="pricing__include-item">Bonus: Deep Connection</div>
+            <div class="pricing__include-item">Bonus: Sensory Awakening</div>
+            <div class="pricing__include-item">Special Bonus: Irresistible Communication</div>
+            <div class="pricing__include-item">Lifetime access — instant download</div>
+            <div class="pricing__include-item">Unconditional 7-day guarantee</div>
+          </div>
+
+          <p class="pricing__label">Full access for only</p>
+          <p class="pricing__price text-gradient">
+            <span class="pricing__price-currency">$</span>17
+          </p>
+          <p class="pricing__note">One-time payment · Instant download · No recurring charges</p>
+
+          <a href="#checkout-pending" class="btn-cta btn-cta--large btn-cta--pulse" id="mainCTA" rel="nofollow">
+            I Want My Guide Now
+            <span class="btn-cta__arrow">→</span>
+          </a>
+          <div class="cta__subtext">
+            <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" fill="#2ecc71"/></svg>
+            Secure payment
+          </div>
+
+          <div class="guarantee">
+            <div class="guarantee__icon">🛡️</div>
+            <div>
+              <div class="guarantee__title">7-Day Guarantee</div>
+              <p class="guarantee__text">
+                If you feel the guide isn't for you, request a refund within the first 7 days and we'll give you 100% of your money back. No questions asked.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq section" id="faq">
+      <div class="container">
+        <div class="text-center reveal">
+          <p class="section__eyebrow">Frequently asked questions</p>
+          <h2 class="section__title">We answer your <span class="text-gradient">questions</span></h2>
+        </div>
+
+        <div class="faq__list reveal">
+          <div class="faq-item">
+            <button class="faq__question" onclick="toggleFaq(this)">
+              Do I need experience in couples therapy?
+              <span class="faq__icon"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq__answer">
+              <div class="faq__answer-inner">
+                No. The guide is designed with simple language and practical tools that anyone can apply, with no prior knowledge of psychology or therapy needed.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq__question" onclick="toggleFaq(this)">
+              Does it work if I'm single?
+              <span class="faq__icon"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq__answer">
+              <div class="faq__answer-inner">
+                Yes. Many of the self-awareness, communication, and presence tools are useful at any stage: in a relationship, dating someone, or preparing for a future relationship.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq__question" onclick="toggleFaq(this)">
+              What format is the content in?
+              <span class="faq__icon"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq__answer">
+              <div class="faq__answer-inner">
+                You'll get e-books in PDF format that you can read on any device — phone, tablet, or computer. Download is instant after your purchase.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq__question" onclick="toggleFaq(this)">
+              What if I don't like it?
+              <span class="faq__icon"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq__answer">
+              <div class="faq__answer-inner">
+                You have a 7-day guarantee. If for any reason you feel it's not for you, just request a refund and we'll give you 100% of your investment back.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq__question" onclick="toggleFaq(this)">
+              Does this product replace couples therapy?
+              <span class="faq__icon"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq__answer">
+              <div class="faq__answer-inner">
+                No. This is educational and informational material. It does not replace support from a mental health professional. If you're going through a difficult situation in your relationship, we recommend seeking professional support.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq__question" onclick="toggleFaq(this)">
+              Does access expire?
+              <span class="faq__icon"><svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq__answer">
+              <div class="faq__answer-inner">
+                No. Once you download the e-books, they're yours forever. You can re-read them as many times as you like.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="final-cta section" id="final">
+      <div class="container">
+        <div class="text-center reveal">
+          <p class="section__eyebrow">Take the next step</p>
+          <h2 class="final-cta__title">
+            Your relationship deserves <span class="text-gradient">attention and care</span>
+          </h2>
+          <p class="final-cta__subtitle">
+            The right tools can make all the difference. Learn to communicate, be present, and connect more deeply with the person you love.
+          </p>
+        </div>
+
+        <div class="benefits-grid reveal">
+          <div class="benefit-item"><span class="benefit-item__icon">📖</span> 5 complete e-books</div>
+          <div class="benefit-item"><span class="benefit-item__icon">🎁</span> 4 bonuses included</div>
+          <div class="benefit-item"><span class="benefit-item__icon">🛡️</span> 7-day guarantee</div>
+          <div class="benefit-item"><span class="benefit-item__icon">📱</span> Read on any device</div>
+        </div>
+
+        <div class="text-center reveal">
+          <a href="#pricing" class="btn-cta btn-cta--large btn-cta--pulse" onclick="scrollToPrice(); return false;">
+            I Want My Guide for $17
+            <span class="btn-cta__arrow">→</span>
+          </a>
+          <div class="cta__subtext">
+            <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" fill="#2ecc71"/></svg>
+            One-time, secure payment · Satisfaction guaranteed
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <p class="footer__text">
+          This product is digital educational material about communication and connection in romantic relationships. Results may vary depending on each person and their circumstances. This material does not replace support from a mental health professional. By purchasing it, you acknowledge that this is informational and educational content.
+        </p>
+        <div class="footer__links">
+          <a href="#">Terms of Use</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Contact</a>
+        </div>
+        <p class="footer__text" style="margin-top: 16px; opacity: 0.5;">
+          © 2026 Sofia Vilar — All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+  </main>
+
+  <script>
+  const quizQuestions = [
+    {
+      step: 'Question 1 of 4',
+      question: 'How would you describe communication in your relationship right now?',
+      options: [
+        'I feel like we\'re missing deep communication',
+        'It\'s okay, but I\'d like to improve it',
+        'It\'s good, but I want new tools',
+        'I\'m not in a relationship but want to prepare'
+      ]
+    },
+    {
+      step: 'Question 2 of 4',
+      question: 'What would you like to achieve in your relationship?',
+      options: [
+        'Feel more emotionally connected',
+        'Improve our daily communication',
+        'Break the routine and reconnect',
+        'All of the above'
+      ]
+    },
+    {
+      step: 'Question 3 of 4',
+      question: 'Do you know any conscious communication tools for couples?',
+      options: [
+        'No, this is the first time I\'ve heard of this',
+        'I\'ve read a bit but don\'t know how to apply it',
+        'Yes, but I want to go deeper',
+        'Yes, I\'m looking for advanced techniques'
+      ]
+    },
+    {
+      step: 'Question 4 of 4',
+      question: 'Would you be willing to spend a few minutes a day on your relationship?',
+      options: [
+        'Yes, my relationship is a priority',
+        'Yes, if it\'s practical and easy',
+        'Maybe, I want to know more first',
+        'Depends on the content'
+      ]
+    }
+  ];
+
+  let currentQuestion = 0;
+  const totalQuestions = quizQuestions.length;
+
+  function initQuiz() { renderProgress(); renderQuestion(); }
+
+  function renderProgress() {
+    const el = document.getElementById('quizProgress');
+    el.innerHTML = '';
+    for (let i = 0; i < totalQuestions; i++) {
+      const dot = document.createElement('div');
+      dot.className = 'quiz__progress-dot';
+      if (i < currentQuestion) dot.classList.add('completed');
+      if (i === currentQuestion) dot.classList.add('active');
+      el.appendChild(dot);
+    }
+  }
+
+  function renderQuestion() {
+    const el = document.getElementById('quizContent');
+    const q = quizQuestions[currentQuestion];
+    const letters = ['A', 'B', 'C', 'D'];
+    el.innerHTML = `
+      <div class="quiz__question-wrapper">
+        <p class="quiz__step-label">${q.step}</p>
+        <h2 class="quiz__question">${q.question}</h2>
+        <div class="quiz__options">
+          ${q.options.map((opt, i) => `
+            <div class="quiz__option" onclick="selectOption(this)">
+              <span class="quiz__option-letter">${letters[i]}</span>
+              <span>${opt}</span>
+            </div>
+          `).join('')}
+        </div>
+      </div>`;
+  }
+
+  function selectOption(el) {
+    el.classList.add('selected');
+    setTimeout(() => {
+      currentQuestion++;
+      if (currentQuestion < totalQuestions) { renderProgress(); renderQuestion(); }
+      else { showResult(); }
+    }, 500);
+  }
+
+  function showResult() {
+    renderProgress();
+    document.getElementById('quizContent').innerHTML = `
+      <div class="quiz__result">
+        <div class="quiz__result-icon">💛</div>
+        <h2 class="quiz__result-title">Excellent! This guide is <span class="text-gradient">perfect for you</span></h2>
+        <p class="quiz__result-text">Based on your answers, <strong>Total Connection</strong> can give you the tools you need to strengthen your relationship and reconnect with your partner.</p>
+        <a href="#pricing" class="btn-cta btn-cta--large btn-cta--pulse" onclick="closeQuiz(); return false;">
+          See the Full Guide <span class="btn-cta__arrow">→</span>
+        </a>
+      </div>`;
+  }
+
+  function closeQuiz() {
+    const o = document.getElementById('quizOverlay');
+    o.classList.add('hidden');
+    document.getElementById('mainContent').style.display = 'block';
+    setTimeout(initReveal, 100);
+    setTimeout(() => { o.style.display = 'none'; }, 700);
+  }
+
+  function toggleFaq(btn) {
+    const item = btn.parentElement;
+    const was = item.classList.contains('active');
+    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+    if (!was) item.classList.add('active');
+  }
+
+  function initReveal() {
+    const obs = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+    document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+  }
+
+  function initParticles() {
+    const c = document.getElementById('particles-canvas');
+    if (!c) return;
+    const ctx = c.getContext('2d');
+    function resize() { c.width = window.innerWidth; c.height = window.innerHeight; }
+    resize(); window.addEventListener('resize', resize);
+    const ps = [];
+    for (let i = 0; i < Math.min(35, Math.floor(window.innerWidth/35)); i++)
+      ps.push({ x:Math.random()*c.width, y:Math.random()*c.height, r:Math.random()*1.5+0.5,
+        sx:(Math.random()-0.5)*0.25, sy:(Math.random()-0.5)*0.25,
+        o:Math.random()*0.25+0.05, h:Math.random()>0.5?330:280 });
+    (function draw() {
+      ctx.clearRect(0,0,c.width,c.height);
+      ps.forEach(p => {
+        p.x+=p.sx; p.y+=p.sy;
+        if(p.x<0)p.x=c.width; if(p.x>c.width)p.x=0;
+        if(p.y<0)p.y=c.height; if(p.y>c.height)p.y=0;
+        ctx.beginPath(); ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
+        ctx.fillStyle=`hsla(${p.h},70%,70%,${p.o})`; ctx.fill();
+      });
+      requestAnimationFrame(draw);
+    })();
+  }
+
+  function scrollToPrice() {
+    document.getElementById('pricing')?.scrollIntoView({ behavior:'smooth', block:'center' });
+  }
+
+  document.addEventListener('DOMContentLoaded', () => { initQuiz(); initParticles(); });
+  </script>
+</body>
+</html>
